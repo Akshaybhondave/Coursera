@@ -20,5 +20,7 @@ else
 echo "Congratulations !!! Hou have guessed correct number"
 exit 0
 if
+}
+echo "guess the files number in the current directory!"
 guess
 done
