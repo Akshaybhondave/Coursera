@@ -4,10 +4,6 @@ function guess {
 echo "Enter number of files in directory"
 read number
 fileno=$(ls -1 | wc -l)
-}
-
-guess
-
 while [[ $number>0 ]]
 do 
 if [[ $number -gt $fileno ]]
